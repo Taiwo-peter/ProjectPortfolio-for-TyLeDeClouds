@@ -3,6 +3,7 @@ import paymentCancelled from "@assets/Screenshot 2025-05-05 155115.png";
 import loadBalancer from "@assets/image_1746780718468.png";
 import emailVerification from "@assets/Screenshot 2025-05-05 152608.png";
 import lambdaFunction from "@assets/Screenshot 2025-05-05 151457.png";
+import homePage from "@assets/Screenshot 2025-05-05 155239.png";
 
 export default function Implementation() {
   return (
@@ -145,6 +146,20 @@ export default function Implementation() {
                 </div>
                 <p className="text-neutral-600 mt-4">
                   Templates are built using HTML/CSS and dynamically populated with customer and order details for personalized notifications. The system supports multiple templates for different event types such as account verification, order confirmations, payment statuses, and important account notifications.
+                </p>
+              </div>
+
+              {/* TyleDeClouds Home Page */}
+              <div>
+                <h4 className="text-xl font-semibold text-neutral-800 mb-2">TyleDeClouds Home Page</h4>
+                <p className="text-neutral-600 mb-4">
+                  The TyleDeClouds platform features a clean, user-friendly interface where users can access cloud services and resources:
+                </p>
+                <div className="mt-4">
+                  <img src={homePage} alt="TyleDeClouds Home Page" className="rounded-lg shadow border border-neutral-200 max-w-full" />
+                </div>
+                <p className="text-neutral-600 mt-4">
+                  The home page provides quick access to cloud computing resources, deployment tools, monitoring dashboards, and customer support. The intuitive navigation helps users easily find the services they need without complexity.
                 </p>
               </div>
             </div>
