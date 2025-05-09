@@ -5,6 +5,7 @@ import architecture from "@assets/Tyledeclouds website architecture_174677935199
 import cloudDashboard from "@assets/Screenshot 2025-05-05 155548_1746779745725.png";
 import resourceMonitoring from "@assets/Screenshot 2025-05-05 162838.png";
 import networkConfig from "@assets/Screenshot 2025-05-05 154942.png";
+import deployment from "@assets/Screenshot 2025-05-05 171442.png";
 
 export default function Screenshots() {
   return (
@@ -96,6 +97,18 @@ export default function Screenshots() {
             <div className="p-4">
               <h3 className="text-lg font-semibold text-neutral-900">Network Configuration</h3>
               <p className="mt-2 text-sm text-neutral-500">VPC network configuration showing security groups, routing tables, and network ACLs.</p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <img 
+              src={deployment} 
+              alt="Application Deployment" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-neutral-900">Continuous Deployment Pipeline</h3>
+              <p className="mt-2 text-sm text-neutral-500">AWS CodePipeline configuration for automated deployment of applications with CI/CD integration.</p>
             </div>
           </div>
         </div>
