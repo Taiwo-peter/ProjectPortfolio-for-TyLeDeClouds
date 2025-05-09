@@ -91,12 +91,12 @@ export default function Screenshots() {
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img 
               src={networkConfig} 
-              alt="Network Configuration" 
+              alt="Stripe Payment Page" 
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold text-neutral-900">Network Configuration</h3>
-              <p className="mt-2 text-sm text-neutral-500">VPC network configuration showing security groups, routing tables, and network ACLs.</p>
+              <h3 className="text-lg font-semibold text-neutral-900">Stripe Payment Page</h3>
+              <p className="mt-2 text-sm text-neutral-500">Secure checkout experience using Stripe payment gateway with custom branding and user-friendly interface.</p>
             </div>
           </div>
 
