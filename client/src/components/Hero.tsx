@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+                         import { ArrowRight } from "lucide-react";
 import loadBalancerImage from "@assets/Tyledeclouds website architecture_1746779351994.png";
 
 export default function Hero() {
