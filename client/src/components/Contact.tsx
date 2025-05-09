@@ -54,7 +54,7 @@ export default function Contact() {
               <div className="mt-3 space-y-3 text-neutral-300">
                 <p className="flex items-center">
                   <Mail className="h-5 w-5 mr-2 text-primary-400" />
-                  contact@tyledeclouds.com
+                  tyledeclouds@gmail.com
                 </p>
                 <p className="flex items-center">
                   <Globe className="h-5 w-5 mr-2 text-primary-400" />
