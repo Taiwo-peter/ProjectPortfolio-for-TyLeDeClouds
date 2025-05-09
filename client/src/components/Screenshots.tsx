@@ -2,6 +2,9 @@ import lambda from "@assets/Screenshot EC2 INSCANCE PAGE.png";
 import sns from "@assets/Screenshot 2025-05-05 155335.png";
 import cloudflare from "@assets/Screenshot 2025-05-05 155239.png";
 import architecture from "@assets/Tyledeclouds website architecture_1746779351994.png";
+import cloudDashboard from "@assets/Screenshot 2025-05-05 155548_1746779745725.png";
+import resourceMonitoring from "@assets/Screenshot 2025-05-05 162838.png";
+import networkConfig from "@assets/Screenshot 2025-05-05 154942.png";
 
 export default function Screenshots() {
   return (
@@ -11,7 +14,7 @@ export default function Screenshots() {
           Project Screenshots
         </h2>
         
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img 
               src={lambda} 
@@ -57,6 +60,42 @@ export default function Screenshots() {
             <div className="p-4">
               <h3 className="text-lg font-semibold text-neutral-900">AWS Architecture Diagram</h3>
               <p className="mt-2 text-sm text-neutral-500">Three-tier architecture diagram showing AWS service integration with load balancing and serverless components.</p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <img 
+              src={cloudDashboard} 
+              alt="Cloud Dashboard" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-neutral-900">Resource Management Console</h3>
+              <p className="mt-2 text-sm text-neutral-500">AWS resource management console showing VM instances and cloud resource allocation.</p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <img 
+              src={resourceMonitoring} 
+              alt="Resource Monitoring Dashboard" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-neutral-900">Performance Monitoring</h3>
+              <p className="mt-2 text-sm text-neutral-500">Real-time performance monitoring of cloud resources with visualized metrics and alerts.</p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <img 
+              src={networkConfig} 
+              alt="Network Configuration" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-neutral-900">Network Configuration</h3>
+              <p className="mt-2 text-sm text-neutral-500">VPC network configuration showing security groups, routing tables, and network ACLs.</p>
             </div>
           </div>
         </div>
