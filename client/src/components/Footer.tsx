@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="mb-4 md:mb-0">
               <Link href="/">
-                <a className="text-xl font-bold">TyleDeClouds</a>
+                <span className="text-xl font-bold cursor-pointer">TyleDeClouds</span>
               </Link>
             </div>
             

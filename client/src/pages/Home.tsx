@@ -18,17 +18,13 @@ export default function Home() {
               A serverless application for eCommerce order notification system using AWS Lambda, SQS, and SNS
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="#contact">
-                <Button variant="secondary" className="bg-white text-primary-700 hover:bg-primary-50">
-                  Get in Touch
-                </Button>
-              </a>
-              <a href="https://github.com/tyledeclouds/aws-integration" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary-700">
-                  <Github className="mr-2 h-4 w-4" />
-                  View on GitHub
-                </Button>
-              </a>
+              <Button variant="secondary" className="bg-white text-primary-700 hover:bg-primary-50" onClick={() => document.getElementById('contact')?.scrollIntoView()}>
+                Get in Touch
+              </Button>
+              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary-700" onClick={() => window.open('https://github.com/tyledeclouds/aws-integration', '_blank')}>
+                <Github className="mr-2 h-4 w-4" />
+                View on GitHub
+              </Button>
             </div>
           </div>
         </div>
@@ -76,7 +72,7 @@ export default function Home() {
                 </div>
                 <div className="p-2">
                   <img 
-                    src="/attached_assets/Screenshot%202025-04-16%20180023_1746780877459.png" 
+                    src="./attached_assets/Screenshot%202025-04-16%20180023_1746780877459.png" 
                     alt="AWS Lambda Function Implementation" 
                     className="w-full h-auto rounded border border-gray-200"
                   />
@@ -95,7 +91,7 @@ export default function Home() {
                 </div>
                 <div className="p-2">
                   <img 
-                    src="/attached_assets/image_1746780718468.png" 
+                    src="./attached_assets/image_1746780718468.png" 
                     alt="Load Balancer Configuration" 
                     className="w-full h-auto rounded border border-gray-200"
                   />
@@ -114,7 +110,7 @@ export default function Home() {
                 </div>
                 <div className="p-2">
                   <img 
-                    src="/attached_assets/Screenshot%202025-05-05%20150903_1746780956521.png" 
+                    src="./attached_assets/Screenshot%202025-05-05%20150903_1746780956521.png" 
                     alt="IAM Roles Configuration" 
                     className="w-full h-auto rounded border border-gray-200"
                   />
@@ -133,7 +129,7 @@ export default function Home() {
                 </div>
                 <div className="p-2">
                   <img 
-                    src="/attached_assets/Screenshot%202025-05-05%20162601_1746781060121.png" 
+                    src="./attached_assets/Screenshot%202025-05-05%20162601_1746781060121.png" 
                     alt="CloudFront Performance Analytics" 
                     className="w-full h-auto rounded border border-gray-200"
                   />
@@ -156,6 +152,19 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">System Architecture</h2>
             
             <div className="bg-gray-50 rounded-lg p-6 mb-8">
+              {/* Architecture Diagram */}
+              <div className="mb-8">
+                <h3 className="text-xl font-semibold mb-4">System Architecture Diagram</h3>
+                <img 
+                  src="./attached_assets/Tyledeclouds website architecture_1746779351994.png" 
+                  alt="AWS System Architecture Diagram" 
+                  className="w-full h-auto rounded mb-4 border border-gray-200"
+                />
+                <p className="text-sm text-gray-600 italic text-center">
+                  Three-tier architecture with AWS service integration for TyleDeClouds Consulting Services
+                </p>
+              </div>
+              
               {/* Components Grid */}
               <h3 className="text-xl font-semibold mb-6">Components</h3>
               

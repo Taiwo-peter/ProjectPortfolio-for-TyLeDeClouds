@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex justify-between w-full md:w-auto items-center">
             <Link href="/">
-              <a className="text-primary-700 font-bold text-xl">TyleDeClouds</a>
+              <span className="text-primary-700 font-bold text-xl cursor-pointer">TyleDeClouds</span>
             </Link>
             <button
               className="md:hidden text-gray-700"
