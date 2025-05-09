@@ -1,5 +1,5 @@
-import iamRoles from "@assets/Screenshot 2025-05-05 150903_1746780956521.png";
-import paymentCancelled from "@assets/image_1746781332647.png";
+import iamRoles from "@assets/Screenshot 2025-05-05 152847.png";
+import paymentCancelled from "@assets/Screenshot 2025-05-05 155115.png";
 
 export default function Implementation() {
   return (
@@ -8,10 +8,10 @@ export default function Implementation() {
         <div className="lg:text-center mb-12">
           <h2 className="text-base text-primary font-semibold tracking-wide uppercase">Implementation</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-neutral-900 sm:text-4xl">
-            How It Works
+            AWS Cloud Integration
           </p>
           <p className="mt-4 max-w-2xl text-xl text-neutral-500 lg:mx-auto">
-            A detailed breakdown of the architecture and technologies used in this project.
+            A detailed breakdown of the AWS architecture and technologies used in TyleDeClouds' cloud consulting solutions.
           </p>
         </div>
 

@@ -1,6 +1,7 @@
-import lambda from "@assets/Screenshot 2025-04-16 180023_1746780877459.png";
-import sns from "@assets/Screenshot 2025-05-05 151737_1746781006878.png";
-import cloudflare from "@assets/Screenshot 2025-05-05 162601_1746781060121.png";
+import lambda from "@assets/Screenshot EC2 INSCANCE PAGE.png";
+import sns from "@assets/Screenshot 2025-05-05 155335.png";
+import cloudflare from "@assets/Screenshot 2025-05-05 155239.png";
+import architecture from "@assets/Tyledeclouds website architecture_1746779351994.png";
 
 export default function Screenshots() {
   return (
@@ -10,7 +11,7 @@ export default function Screenshots() {
           Project Screenshots
         </h2>
         
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img 
               src={lambda} 
@@ -18,32 +19,44 @@ export default function Screenshots() {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold text-neutral-900">Lambda Function</h3>
-              <p className="mt-2 text-sm text-neutral-500">AWS Lambda function for processing order notifications using Python.</p>
+              <h3 className="text-lg font-semibold text-neutral-900">EC2 Instance Configuration</h3>
+              <p className="mt-2 text-sm text-neutral-500">AWS EC2 instance running Ubuntu for backend services and application deployments.</p>
             </div>
           </div>
           
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img 
               src={sns} 
-              alt="AWS SNS configuration" 
+              alt="Cloud Services Dashboard" 
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold text-neutral-900">SNS Notification Queue</h3>
-              <p className="mt-2 text-sm text-neutral-500">Message queue configuration for handling order events and notifications.</p>
+              <h3 className="text-lg font-semibold text-neutral-900">Cloud Services Dashboard</h3>
+              <p className="mt-2 text-sm text-neutral-500">TyleDeClouds services dashboard showing available cloud consulting options.</p>
             </div>
           </div>
           
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img 
               src={cloudflare} 
-              alt="Cloudflare configuration" 
+              alt="Services Dashboard" 
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold text-neutral-900">Cloudflare Integration</h3>
-              <p className="mt-2 text-sm text-neutral-500">Performance monitoring and DNS management for the application.</p>
+              <h3 className="text-lg font-semibold text-neutral-900">Cloud Migration Service</h3>
+              <p className="mt-2 text-sm text-neutral-500">The cloud migration service interface showing migration options and strategies.</p>
+            </div>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <img 
+              src={architecture} 
+              alt="Architecture Diagram" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-neutral-900">AWS Architecture Diagram</h3>
+              <p className="mt-2 text-sm text-neutral-500">Three-tier architecture diagram showing AWS service integration with load balancing and serverless components.</p>
             </div>
           </div>
         </div>
