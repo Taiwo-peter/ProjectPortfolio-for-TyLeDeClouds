@@ -1,5 +1,6 @@
 import iamRoles from "@assets/Screenshot 2025-05-05 152847.png";
 import paymentCancelled from "@assets/Screenshot 2025-05-05 155115.png";
+import loadBalancer from "@assets/image_1746780718468.png";
 
 export default function Implementation() {
   return (
@@ -94,13 +95,30 @@ export default function Implementation() {
                   The system uses an AWS Elastic Load Balancer to distribute traffic and ensure high availability:
                 </p>
                 <div className="mt-4">
-                  <img src={iamRoles} alt="IAM Roles Configuration" className="rounded-lg shadow border border-neutral-200 max-w-full" />
+                  <img src={loadBalancer} alt="Load Balancer Configuration" className="rounded-lg shadow border border-neutral-200 max-w-full" />
                 </div>
                 <ul className="list-disc pl-5 space-y-2 text-neutral-600 mt-4">
                   <li>Two listeners configured: HTTPS:443 and HTTP:80</li>
                   <li>Path pattern rule for /webhook route to handle incoming webhook calls</li>
                   <li>Health checks configured to ensure system reliability</li>
                   <li>Target groups set up to distribute traffic to Lambda function endpoints</li>
+                </ul>
+              </div>
+              
+              {/* IAM Configuration */}
+              <div>
+                <h4 className="text-xl font-semibold text-neutral-800 mb-2">IAM Permissions & VPC Configuration</h4>
+                <p className="text-neutral-600 mb-4">
+                  Our AWS infrastructure uses secure IAM roles and VPC configurations to isolate and protect resources:
+                </p>
+                <div className="mt-4">
+                  <img src={iamRoles} alt="IAM Roles and VPC Configuration" className="rounded-lg shadow border border-neutral-200 max-w-full" />
+                </div>
+                <ul className="list-disc pl-5 space-y-2 text-neutral-600 mt-4">
+                  <li>Separate public and private subnets for enhanced security</li>
+                  <li>Precise IAM permissions following principle of least privilege</li>
+                  <li>Resource tagging for improved organization and cost management</li>
+                  <li>Private subnets configured for database and backend services</li>
                 </ul>
               </div>
               
