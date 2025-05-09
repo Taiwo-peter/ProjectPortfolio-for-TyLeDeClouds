@@ -1,6 +1,7 @@
 import iamRoles from "@assets/Screenshot 2025-05-05 152847.png";
 import paymentCancelled from "@assets/Screenshot 2025-05-05 155115.png";
 import loadBalancer from "@assets/image_1746780718468.png";
+import emailVerification from "@assets/Screenshot 2025-05-05 152608.png";
 
 export default function Implementation() {
   return (
@@ -128,11 +129,18 @@ export default function Implementation() {
                 <p className="text-neutral-600 mb-4">
                   The system includes pre-configured email templates for different order status notifications:
                 </p>
-                <div className="mt-4">
-                  <img src={paymentCancelled} alt="Payment Cancelled Email Template" className="rounded-lg shadow border border-neutral-200 max-w-full" />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+                  <div>
+                    <h5 className="font-medium text-neutral-700 mb-2">Email Verification Template</h5>
+                    <img src={emailVerification} alt="Email Verification Template" className="rounded-lg shadow border border-neutral-200 max-w-full" />
+                  </div>
+                  <div>
+                    <h5 className="font-medium text-neutral-700 mb-2">Payment Cancelled Template</h5>
+                    <img src={paymentCancelled} alt="Payment Cancelled Email Template" className="rounded-lg shadow border border-neutral-200 max-w-full" />
+                  </div>
                 </div>
                 <p className="text-neutral-600 mt-4">
-                  Templates are built using HTML/CSS and dynamically populated with customer and order details for personalized notifications.
+                  Templates are built using HTML/CSS and dynamically populated with customer and order details for personalized notifications. The system supports multiple templates for different event types such as account verification, order confirmations, payment statuses, and important account notifications.
                 </p>
               </div>
             </div>
