@@ -23,7 +23,7 @@ export default function Contact() {
               </p>
               <div className="mt-6">
                 <a
-                  href="https://github.com/tyledeclouds/aws-integration"
+                  href="https://github.com/Taiwo-peter/TyLeDeClouds.py.git"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 focus:ring-offset-neutral-700"

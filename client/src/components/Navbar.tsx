@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
             <a 
-              href="https://github.com/tyledeclouds/aws-integration" 
+              href="https://github.com/Taiwo-peter/TyLeDeClouds.py.git" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-3 py-2 rounded-md text-sm font-medium text-neutral-500 hover:text-neutral-900 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-white flex items-center"
@@ -113,7 +113,7 @@ export default function Navbar() {
         <div className="pt-4 pb-3 border-t border-neutral-200">
           <div className="flex items-center px-4">
             <a
-              href="https://github.com/tyledeclouds/aws-integration"
+              href="https://github.com/Taiwo-peter/TyLeDeClouds.py.git"
               target="_blank"
               rel="noopener noreferrer"
               className="px-3 py-2 rounded-md text-base font-medium text-neutral-500 hover:text-neutral-900 hover:bg-neutral-100 flex items-center"
