@@ -103,12 +103,12 @@ export default function Screenshots() {
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <img 
               src={deployment} 
-              alt="Application Deployment" 
+              alt="Stripe Webhooks" 
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold text-neutral-900">Continuous Deployment Pipeline</h3>
-              <p className="mt-2 text-sm text-neutral-500">AWS CodePipeline configuration for automated deployment of applications with CI/CD integration.</p>
+              <h3 className="text-lg font-semibold text-neutral-900">Stripe Webhooks</h3>
+              <p className="mt-2 text-sm text-neutral-500">Configuration of Stripe webhook endpoints for payment event processing and notification delivery.</p>
             </div>
           </div>
         </div>
