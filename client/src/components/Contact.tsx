@@ -62,7 +62,7 @@ export default function Contact() {
                 </p>
                 <p className="flex items-center">
                   <MapPin className="h-5 w-5 mr-2 text-primary-400" />
-                  San Francisco, CA
+                  Ashford, United Kingdom
                 </p>
               </div>
             </div>
