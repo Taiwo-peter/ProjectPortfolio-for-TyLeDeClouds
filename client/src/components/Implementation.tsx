@@ -2,6 +2,7 @@ import iamRoles from "@assets/Screenshot 2025-05-05 152847.png";
 import paymentCancelled from "@assets/Screenshot 2025-05-05 155115.png";
 import loadBalancer from "@assets/image_1746780718468.png";
 import emailVerification from "@assets/Screenshot 2025-05-05 152608.png";
+import lambdaFunction from "@assets/Screenshot 2025-05-05 151457.png";
 
 export default function Implementation() {
   return (
@@ -61,6 +62,9 @@ export default function Implementation() {
                 <p className="text-neutral-600 mb-4">
                   The core of the notification system is an AWS Lambda function written in Python that:
                 </p>
+                <div className="mt-4 mb-6">
+                  <img src={lambdaFunction} alt="Lambda Function Configuration" className="rounded-lg shadow border border-neutral-200 max-w-full" />
+                </div>
                 <div className="bg-neutral-100 p-6 rounded-lg">
                   <pre className="text-sm overflow-x-auto text-neutral-800 whitespace-pre-wrap">
 {`def get_secret(secret_name):
@@ -85,7 +89,7 @@ export default function Implementation() {
                   </pre>
                 </div>
                 <p className="text-neutral-600 mt-4">
-                  The Lambda function processes incoming order events, formats the notification content, and sends it via SQS to the email delivery service.
+                  The Lambda function processes incoming order events, formats the notification content, and sends it via SQS to the email delivery service. The function is configured with appropriate memory allocation, timeout settings, and environment variables to ensure reliable operation.
                 </p>
               </div>
               
